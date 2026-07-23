@@ -36,7 +36,7 @@ active_raids = {
 
 RAID_BANNER = """
 🎭 ═══════════════════════════════════════ 🎭
-      𝗖𝗜𝗣𝗛𝗘𝗥 𝗘𝗟𝗜𝗧𝗘 𝗥𝗔𝗜𝗗 𝗦𝗬𝗦𝗧𝗘𝗠 
+      kaamchor 𝗥𝗔𝗜𝗗 𝗦𝗬𝗦𝗧𝗘𝗠 
 🎭 ═══════════════════════════════════════ 🎭
 """
 
@@ -149,7 +149,7 @@ ENGLISH_RAIDS = [
 ]
 
 ACTIVATION_MESSAGE = """
-🎭 **CIPHER ELITE RAID ACTIVATED** 🎭
+🎭 **kaamchor RAID ACTIVATED** 🎭
 
 🎯 **Target:** {}
 🆔 **Target ID:** `{}`
