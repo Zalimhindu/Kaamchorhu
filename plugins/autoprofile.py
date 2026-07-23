@@ -136,7 +136,7 @@ async def loop_autoname(client):
         try:
             ist_now = get_ist_time()
             time_str = ist_now.strftime("%H:%M")
-            new_name = f"⚡ {time_str} | Cipher Elite"
+            new_name = f"⚡ {time_str} | 🪶‌‌‌‌का‌म‌चो‌ऱ ‌हूँ‌༎"
             await client(functions.account.UpdateProfileRequest(first_name=new_name))
         except FloodWaitError as e:
             await notify_user(client, f"⏳ AutoName FloodWait: {e.seconds}s")
