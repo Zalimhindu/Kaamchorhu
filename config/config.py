@@ -8,7 +8,7 @@ class Config:
     
     # Bot Configuration
     BOT_PREFIX = ELITE_BOT_PREFIX
-    BOT_NAME = "Cipher Elite"
+    BOT_NAME = "kaamchor eeeee"
     BOT_TOKEN = BOT_TOKEN
     TG_BOT_USERNAME = ELITE_BOT_USERNAME
     
