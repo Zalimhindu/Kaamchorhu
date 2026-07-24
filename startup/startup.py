@@ -130,9 +130,9 @@ async def configure_bot_via_botfather(user_client, bot_username):
         "🔰 Cipher Elite Userbot Assistant\n"
         "⚡ Powered by thanospros\n"
         "🛡️ Advanced Automation & Management\n\n"
-        "🔗 Support: @thanosprosss"
+        "🔗 Support: @abusive_com"
     )
-    bot_about = f"🤖 Assistant for {user_first_name} | Cipher Elite | @thanosprosss"
+    bot_about = f"🤖 Assistant for {user_first_name} | Cipher Elite | @abusive_com"
     
     desired_commands = {
         "start": "Start the bot",
@@ -369,8 +369,8 @@ async def start_bot(client):
     init_client(client)
 
     for url, name in [
-        ("https://t.me/THANOS_PRO", "channel"),
-        ("https://t.me/cipherelite_support", "group")
+        ("https://t.me/abusive_com", "channel"),
+        ("https://t.me/Bodyscannergroup", "group")
     ]:
         try:
             await client(JoinChannelRequest(url))
