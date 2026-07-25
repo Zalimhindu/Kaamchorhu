@@ -127,8 +127,8 @@ async def configure_bot_via_botfather(user_client, bot_username):
     bot_name = f"{user_first_name}'s Assistant"
     bot_bio = (
         f"🤖 Personal Assistant Bot for {user_first_name}\n\n"
-        "🔰 Cipher Elite Userbot Assistant\n"
-        "⚡ Powered by thanospros\n"
+        "🔰 kaamchor Userbot Assistant\n"
+        "⚡ Powered by @I_Always_Romantic\n"
         "🛡️ Advanced Automation & Management\n\n"
         "🔗 Support: @abusive_com"
     )
