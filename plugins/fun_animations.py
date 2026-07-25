@@ -108,18 +108,18 @@ async def dial(event):
         return
     animation_interval = 2
     animation_ttl = range(10)
-    event = await edit_or_reply(event, "📞 Dialing a VIP...")
+    event = await edit_or_reply(event, "📞 Madharchod ko call lga raha hu ...")
     animation_chars = [
-        "`Connecting to Secret Network...`",
-        "`Call Initiated.`",
-        "`VIP: Who's this?`",
-        f"`Me: Yo, it's {DEFAULTUSER}!`",
-        "`VIP: Authentication in progress...`",
-        "`Call Secured at +91-SECRET-NO`",
-        f"`Me: Hey, what's good?`",
-        "`VIP: Yo, {DEFAULTUSER}! Been ages!`",
-        "`VIP: Gotta run, catch ya later!`",
-        "`Call Ended. Stay cool! 😎`"
+        "`Connecting to Dharmendra pradhan randi...`",
+        "`Call suru ho gya madharchod.`",
+        "`Randi: Who's this?`",
+        f"`Dharmendra: Yo, it's modi ka loda {DEFAULTUSER}!`",
+        "`Randi: Chudai abhi ho rahi h  in progress...`",
+        "`Call Secured at +91-9876543210`",
+        f"`Randi: Hey,tumhari behen chodni h?`",
+        "`randi: Yo, Dharmendra Pradhan randi teri behen chodni h {DEFAULTUSER}! Been ages!`",
+        "`Randi: pakd pakd madharchod dharmender pradhan ko pkd!`",
+        "`Lo chud gya education minister. bolo modi madharchod! 😎`"
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
