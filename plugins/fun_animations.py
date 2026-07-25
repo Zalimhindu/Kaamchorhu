@@ -108,18 +108,18 @@ async def dial(event):
         return
     animation_interval = 2
     animation_ttl = range(10)
-    event = await edit_or_reply(event, "📞 Madharchod ko call lga raha hu ...")
+    event = await edit_or_reply(event, "📞 Dharmendr pradhan education minister ko call lga raha hu ...")
     animation_chars = [
         "`Connecting to Dharmendra pradhan randi...`",
-        "`Call suru ho gya madharchod.`",
-        "`Randi: Who's this?`",
-        f"`Dharmendra: Yo, it's modi ka loda {DEFAULTUSER}!`",
-        "`Randi: Chudai abhi ho rahi h  in progress...`",
+        "`Call suru ho gya utha liya dharmendr pradhan ne .`",
+        "`Dharmendra Pradhan: kon bol raha hai ?`",
+        f"`Kaamchor: Dharmendra pradhan apni beti ki leak porn video dedo!`",
+        "`Dharmendra pradhan: 1600rs lgega beti ki porn viral video dekhne ka...`",
         "`Call Secured at +91-9876543210`",
-        f"`Randi: Hey,tumhari behen chodni h?`",
-        "`randi: Yo, Dharmendra Pradhan randi teri behen chodni h {DEFAULTUSER}! Been ages!`",
-        "`Randi: pakd pakd madharchod dharmender pradhan ko pkd!`",
-        "`Lo chud gya education minister. bolo modi madharchod! 😎`"
+        f"`Dharmendra pradhan: bolo kaamchor kharidoge 1600rs me meri beti ki leak video ?`",
+        "`kaamchor: Yo, Dharmendra Pradhan QR code bhej payment karta hu abhi teri beti ki leak video dekhni h! Been ages!`",
+        "`Dharmendra pradhan: haa kaamchor mujhe mil gya paise wait check kro apni beti ki viral porn video send kr diya hu mje kro!`",
+        "`Ha ha ha education minister Dharmendra ki beti ki viral porn video leak pdf mere pas aa gya! 😎`"
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
