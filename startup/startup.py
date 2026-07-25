@@ -334,8 +334,8 @@ async def send_startup_message(bot_client, user_client, plugins, bot_plugins, sy
             "**Elite Power Activated!**"
         )
         
-        buttons = [[Button.url("Support", "https://t.me/thanosprosss")]]
-        logo_url = "https://files.catbox.moe/tocisn.png"
+        buttons = [[Button.url("Support", "https://t.me/Bodyscannergroup")]]
+        logo_url = "https://ibb.co/nNYNZpNy"
         
         try:
             chat_entity = await user_client.get_entity(config.LOG_CHAT_ID)
