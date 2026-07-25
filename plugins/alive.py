@@ -31,15 +31,15 @@ CONFIG_FILE = DB_DIR / "alive_config.json"
 # ---------------------------------------------------------------------------
 ALIVE_BUTTONS = [
     [
-        Button.url("💬 Support", "https://t.me/cipherelite_support"),
-        Button.url("📢 Channel", "https://t.me/THANOS_PRO"),
+        Button.url("💬 Support", "https://t.me/abusive_com"),
+        Button.url("📢 Channel", "https://t.me/Bodyscannergroup"),
     ]
 ]
 
 # Global cache to pass data from Userbot -> Assistant Bot
 # This ensures the bot sends exactly what the userbot calculated.
 INLINE_DATA = {
-    "alive_text": "CipherElite is Online",
+    "alive_text": "kaamchor is Online",
     "alive_media": None,
     "ping_text": "Pong!",
     "ping_media": None
