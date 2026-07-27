@@ -29,7 +29,7 @@ ALIVE_NAME = os.getenv("ALIVE_NAME", "🪶‌‌‌‌का‌म‌चो‌�
 
 # Update Configuration
 UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/rishabhops/CipherElite")
-BRANCH = os.getenv("BRANCH", "🪶‌‌‌‌का‌म‌चो‌ऱ ‌हूँ‌༎")
+BRANCH = os.getenv("BRANCH", "elite")
 
 # for  debugging dont edit this
 if API_ID == 0:
