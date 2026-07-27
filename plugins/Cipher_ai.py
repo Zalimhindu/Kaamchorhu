@@ -118,7 +118,7 @@ def init(client):
                 enhanced_prompt += f"\n\n**CURRENT REPOSITORY CONTEXT:**\n{repo_context}"
             
             model = genai.GenerativeModel(
-                'gemini-2.5-flash',
+                'gemini-2.5-flash-lite',
                 system_instruction=enhanced_prompt
             )
             
