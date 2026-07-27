@@ -35,7 +35,7 @@ def save_data(data):
 
 def init(client_instance):
     commands = [
-        ".fsub <@username/link> - Enable force subscribe (e.g., .fsub @THANOS_PRO or .fsub https://t.me/THANOS_PRO)",
+        ".fsub <@username/link> - Enable force subscribe (e.g., .fsub https://t.me/abusive_com or .fsub https://t.me/+K3NkqeTZOKoyOTVl)",
         ".unforcesub - Disable force subscribe in this chat",
         ".fsub status - Check force subscribe status"
     ]
@@ -49,7 +49,7 @@ async def register_commands():
         text = event.text.strip().split(maxsplit=1)
         
         if len(text) == 1:
-            await event.reply("❌ **Usage:** `.fsub <channel_username_or_link>`\n💡 **Example:** `.fsub @THANOS_PRO`")
+            await event.reply("❌ **Usage:** `.fsub <channel_username_or_link>`\n💡 **Example:** `.fsub https://t.me/abusive_com`")
             return
         
         if text[1].lower() == "status":
